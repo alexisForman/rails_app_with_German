@@ -4,4 +4,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  #root "controller#action" action can be a view or some data manipulation
+  root "pages#landing"
+  #These are alternative ways to route:
+  # root to: "pages#landing"
+  # get "/", to: "pages#landing"
 end
